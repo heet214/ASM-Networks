@@ -1,0 +1,134 @@
+.contact-container {
+  margin-top: 9rem;
+  padding-top: 5rem;
+  background-color: var(--color-secondary);
+}
+.contact-header {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--color-white);
+  font-weight: 600;
+  padding-bottom: 3rem;
+}
+.section-para {
+  width: 80%;
+  margin: 0 auto;
+}
+.sub-para {
+  color: var(--color-primary);
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.sub-pad {
+  padding-top: 5rem;
+}
+.carousel-section {
+  display: flex;
+  height: 50rem;
+  width: 90%;
+  margin: 15rem auto;
+}
+
+.carousel-left {
+  width: 50%;
+
+  background-color: var(--color-white);
+}
+
+.carousel-right {
+  width: 50%;
+}
+.carousel-right-text {
+  width: 85%;
+  margin: 2rem auto;
+  color: var(--color-white);
+  font-size: 2.5rem;
+}
+.section-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 15rem auto 0 auto;
+  background-color: #c4c4c4;
+  border-radius: 40px;
+  padding: 5rem;
+  overflow: hidden;
+}
+.segment-left {
+  width: 50%;
+}
+.segment-left-text {
+  color: var(--color-secondary);
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.segment-left-button {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  background-color: var(--color-secondary);
+  padding: 5px 20px;
+  border-radius: 50px;
+  border: 3px solid var(--color-primary);
+  color: var(--color-white);
+  margin-top: 5rem;
+  outline: none;
+  width: 50%;
+}
+.segment-team {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+.team-logo {
+  height: 30rem;
+  width: 30rem;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    width: 100%;
+  }
+  .contact-header {
+    font-size: 2.5rem;
+  }
+  .section-para {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .sub-para {
+    font-size: 1.5rem;
+  }
+  .carousel-section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  .carousel-left {
+    width: 100%;
+  }
+  .carousel-item {
+    height: 30rem;
+  }
+  .carousel-right {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .carousel-right-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .section-2 {
+    flex-direction: column;
+
+    width: 100%;
+  }
+  .segment-left {
+    width: 100%;
+    padding-bottom: 5rem;
+  }
+  .segment-left-button {
+    width: 90%;
+  }
+}

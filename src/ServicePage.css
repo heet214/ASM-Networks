@@ -1,0 +1,33 @@
+.home {
+  display: grid;
+  background-color: var(--color-secondary);
+  grid-template-columns: 1fr;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 17rem 0 10rem 0;
+  max-width: 100%;
+  row-gap: 7rem;
+}
+
+.home__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10rem;
+  z-index: 1;
+  margin: 0 10rem;
+}
+
+@media (max-width: 768px) {
+  .home {
+    width: 100%;
+    row-gap: 5rem;
+  }
+  .home__row {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    column-gap: 0;
+    row-gap: 5rem;
+    margin: 0;
+  }
+}
